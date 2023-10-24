@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Currency Conversion</string>
+    <string name="title">Currency Convertor</string>
+    <string name="edtTxtToConvert">Amount to convert</string>
+    <string name="txtRbUsToEu">Convert Dollars to Euros</string>
+    <string name="txtRbEuToUs">Convert Euros to Dollars</string>
+    <string name="btnConvert">Convert</string>
+</resources>
