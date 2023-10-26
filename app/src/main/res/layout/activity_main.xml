@@ -28,6 +28,7 @@
         android:gravity="center_horizontal|center_vertical"
         android:hint="@string/edtTxtToConvert"
         android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,11 +73,12 @@
 
     <TextView
         android:id="@+id/idTxtConvertedAmount"
-        android:layout_width="179dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="215dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/idBtnConvert" />
 </androidx.constraintlayout.widget.ConstraintLayout>
